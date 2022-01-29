@@ -1,0 +1,55 @@
+.slick-prev::before, .slick-next::before{
+    color: #000;
+
+}
+.slick-prev, .slick-next{
+    top: 30%;
+}
+.mostReaded .slick-prev  {
+    left: 10px;
+    z-index: 5;
+    top: 50%;
+}
+.mostReaded .slick-next  {
+    right: 10px;
+    top: 50%;
+}
+.three .slick-prev  {
+    left: -5px;
+    z-index: 5;
+    top: 35%;
+}
+.three .slick-next  {
+    right: -5px;
+    top: 35%;
+}
+.authorDay .slick-prev  {
+    left: 0px;
+    z-index: 5;
+    top: 106%;
+}
+.authorDay .slick-next{
+    right: 0px;
+    top: 106%;
+}
+.mainAuthor .authorDay .slick-prev  {
+    left: 15px;
+    top: 95%;
+}
+.mainAuthor .authorDay .slick-next{
+    top: 95%;
+    right: 15px;
+
+}
+
+.abc{
+    width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .slick-next{
+
+        margin-right: 20px;
+
+    }
+}

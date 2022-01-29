@@ -1,0 +1,13 @@
+.footerWrapper{
+    background-color: #fefefe;
+}
+.footerTopBorder{
+    border-top: 40px solid #eef3fb;
+}
+.footerWrapper ul{
+    padding: 0;
+}
+.footerWrapper li{
+
+    list-style-type: none;
+}

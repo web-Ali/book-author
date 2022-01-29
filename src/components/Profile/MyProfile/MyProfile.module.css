@@ -1,0 +1,25 @@
+.bio{
+    min-height: 220px;
+    background-color: #eae9f7   ;
+    border: 1px solid lightgray;
+    padding: 10px;
+    font-size: 18px;
+    font-style: italic;
+    border-radius: 10px;
+}
+.block{
+    margin-bottom: 15px;
+}
+.infoText{
+    background-color: #eae9f7;
+    border-radius: 10px;
+    font-style: italic;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.infoText:hover{
+    background-color: #dfe0ed   ;
+}

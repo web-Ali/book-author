@@ -1,0 +1,13 @@
+.nav-link{
+    color: gray;
+}
+.nav-link:hover{
+    color: #000;
+}
+.tab-content{
+    border: 1px solid lightgray;
+    padding: 15px;
+}
+.fa-heart:hover{
+    cursor: pointer;
+}

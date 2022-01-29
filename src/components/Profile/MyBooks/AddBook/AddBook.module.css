@@ -1,0 +1,45 @@
+.wrapper{
+    min-height: 700px;
+}
+.tagsCont{
+    position: relative;
+}
+.tagslist{
+    display: block;
+    position: absolute;
+    border: 1px solid #4582af;
+    background: #fff;
+    z-index: 5;
+    width: 100%;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+.addNewTag{
+    font-weight: bold;
+}
+.tagslistitem{
+    padding: 10px;
+    border-bottom: 1px solid lightblue;
+
+}
+.tagslistitem:hover{
+    background: #4582af;
+    color: #fff;
+}
+.tagsTarget{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+.tagsTarget div{
+    color: #fff;
+    padding: 2px 7px 5px 7px;
+    background-color: #6c757d;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+.tagsTarget div i:hover{
+    cursor: pointer;
+    color: lightgray;
+}

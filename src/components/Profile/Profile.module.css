@@ -1,0 +1,182 @@
+
+.profImg{
+
+    border-radius: 10px;
+    border: 3px solid #fff;
+    position: relative;
+    top: 100px;
+}
+.profImg img{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profImg:hover .photoEdit{
+    display: block;
+}
+.photoEdit{
+    display: none;
+    position: absolute;
+    opacity: 0.9;
+    margin-top: -35px;
+}
+.photoEdit button{
+    font-size: 14px;
+    width: 187px;
+
+}
+.coverBg{
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 250px;
+    padding-left: 20px;
+    position: relative;
+}
+.coverBg:hover .bgImage{
+    display: block;
+}
+.bgImage{
+    position: absolute;
+    display: none;
+    right: 30px;
+    bottom: 30px;
+}
+.userStats{
+    display: flex;
+}
+.userStats div{
+    font-style: italic;
+    margin-right: 30px;
+    color: #fff;
+    font-size: 18px;
+}
+.nav{
+    background-color: #fff;
+    margin: 0;
+}
+.content{
+    background-color: #fff;
+    border: 1px solid transparent;
+    margin-top: 25px;
+    border-radius: 4px;
+    box-shadow: 0 .005em .01em 0 rgba(0,0,0,.12),0 2px 10px 0 rgba(0,0,0,.12);
+    transition: .2s opacity;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.navList li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.navList li a{
+    text-decoration: none;
+    color: #000;
+    padding: 12px;
+    display: inline-block;
+
+}
+.navList li a:hover{
+    color: #4582af;
+}
+.tabs{
+    display: flex;
+    margin-top: 5px;
+    justify-content: start;
+    padding: 0;
+}
+.tabs li{
+    list-style: none;
+
+}
+.tabs li a{
+    cursor: pointer;
+    display: inline-block;
+    color: #495057;
+    padding: 10px;
+    border: 2px solid;
+    border-color: #fff #fff #dee2e6 #fff;
+}
+.tabs li a:hover{
+    color: #000;
+
+}
+.tabs li a.active{
+    border-radius: 5px 5px 0 0;
+    color: #000;
+    border-color: #dee2e6 #dee2e6 #fff;
+
+}
+@media screen and (max-width: 1400px) {
+    .profImg img{
+        height: 157px;
+    }
+    .photoEdit button{
+        width: 157px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .profImg img{
+        height: 128px;
+    }
+    .photoEdit button{
+        width: 128px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .profImg img{
+        height: 87px;
+    }
+    .profImg{
+        top: 10px;
+    }
+    .photoEdit button{
+        width: 87px;
+    }
+    .photoEdit{
+        display: block;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profImg img{
+        height: 61px;
+    }
+    .photoEdit button{
+        width: 61px;
+        padding: 0px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .profImg{
+        width: 70px;
+    }
+    .profImg img{
+        height: 70px;
+        width: 70px;
+    }
+    .userStats div{
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    .tabs{
+        flex-direction: column;
+    }
+    .tabs li{
+        text-align: center;
+        width: 100%;
+    }
+    .tabs li a{
+        width: 100%;
+    }
+    .tabs li a.active{
+        border-color: #fff #fff #dee2e6 #fff;
+        color: #000;
+        font-weight: bold;
+        background-color: #6da3bd;
+    }
+}

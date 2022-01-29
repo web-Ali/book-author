@@ -1,0 +1,102 @@
+.chapterCont{
+    background: #eef3fb;
+    padding-top: 70px;
+}
+
+.nav {
+    background: #eef3fb;
+    color: white;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    transition: all .3s ease;
+}
+.nav.out {
+    transform: translateY(-100%);
+}
+.sidebare{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.5);
+    position: fixed;
+    transition: all .3s ease;
+    z-index: 5;
+}
+.sidebare.out{
+    background: rgba(0,0,0, 0);
+    transform: translateX(-100%);
+
+}
+.sidebarContent{
+    background: #fff;
+    max-width: 700px;
+    height: 100vh;
+    overflow-y: scroll;
+
+}
+.sidebarTitle{
+    padding: 20px;
+    position: relative;
+}
+.sidebarTitle img{
+    object-fit: cover;
+    width: 176px;
+    height: 260px;
+    border: 1px solid #cecece;
+    text-align: center;
+}
+.chapterimg{
+    text-align: center;
+}
+.sidebarTitle button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.sidebarTitle p{
+    text-align: center;
+    font-size: 24px;
+}
+.sidebarTitle h3{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+
+}
+.chapters{
+    padding-bottom: 20px;
+}
+.chapters div{
+    border-top: 1px solid lightgray;
+    padding: 7px 15px;
+    font-size: 24px;
+}
+.chapters .active{
+    background-color: #6c757d;
+    color: #fff;
+}
+.chapters div:hover{
+    background-color: #6da3bd;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.chapters .active:hover{
+    background-color: #6c757d;
+    color: #fff;
+    cursor: default;
+}
+.move{
+
+    display: flex;
+    justify-content: space-between;
+}
+.rightMove, .leftMove{
+    font-size: 30px;
+}
